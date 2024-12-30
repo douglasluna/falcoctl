@@ -1,0 +1,63 @@
+- name: falco-incubating-rules
+  type: rulesfile
+  registry: ghcr.io
+  repository: falcosecurity/rules/falco-incubating-rules
+  signature:
+    cosign:
+        certificate-oidc-issuer: https://token.actions.githubusercontent.com
+        certificate-oidc-issuer-regexp: ""
+        certificate-identity: ""
+        certificate-identity-regexp: https://github.com/falcosecurity/rules/
+        certificate-github-workflow: ""
+  description: Falco incubating rules
+  home: https://github.com/falcosecurity/rules/blob/main/rules/falco-incubating_rules.yaml
+  keywords:
+    - falco-incubating-rules
+  license: apache-2.0
+  maintainers:
+    - email: cncf-falco-dev@lists.cncf.io
+      name: The Falco Authors
+  sources:
+    - https://github.com/falcosecurity/rules/blob/main/rules/falco-incubating_rules.yaml
+- name: falco-rules
+  type: rulesfile
+  registry: ghcr.io
+  repository: falcosecurity/rules/falco-rules
+  signature:
+    cosign:
+        certificate-oidc-issuer: https://token.actions.githubusercontent.com
+        certificate-oidc-issuer-regexp: ""
+        certificate-identity: ""
+        certificate-identity-regexp: https://github.com/falcosecurity/rules/
+        certificate-github-workflow: ""
+  description: Falco rules that are loaded by default
+  home: https://github.com/falcosecurity/rules/blob/main/rules/falco_rules.yaml
+  keywords:
+    - falco-rules
+  license: apache-2.0
+  maintainers:
+    - email: cncf-falco-dev@lists.cncf.io
+      name: The Falco Authors
+  sources:
+    - https://github.com/falcosecurity/rules/blob/main/rules/falco_rules.yaml
+- name: falco-sandbox-rules
+  type: rulesfile
+  registry: ghcr.io
+  repository: falcosecurity/rules/falco-sandbox-rules
+  signature:
+    cosign:
+        certificate-oidc-issuer: https://token.actions.githubusercontent.com
+        certificate-oidc-issuer-regexp: ""
+        certificate-identity: ""
+        certificate-identity-regexp: https://github.com/falcosecurity/rules/
+        certificate-github-workflow: ""
+  description: Falco sandbox rules
+  home: https://github.com/falcosecurity/rules/blob/main/rules/falco-sandbox_rules.yaml
+  keywords:
+    - falco-sandbox-rules
+  license: apache-2.0
+  maintainers:
+    - email: cncf-falco-dev@lists.cncf.io
+      name: The Falco Authors
+  sources:
+    - https://github.com/falcosecurity/rules/blob/main/rules/falco-sandbox_rules.yaml
